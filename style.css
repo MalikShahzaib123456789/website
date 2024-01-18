@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* navBa*/
+
+
+.navBar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e5c5c;
+    
+
+}
+.NavDiv1{
+    margin-left: 10px;
+
+}
+.NavDiv3{
+    margin-right: 40px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.unOrderList{
+    list-style: none;
+    font-size: 20px;
+}
+.list{
+    display: inline;
+    margin-right: 50px;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.fontIcons{
+    margin: 0px 10px;
+}
+.emoji{
+    color: rgb(211, 208, 24);
+    font-size: 23px;
+    margin-left: 30px;
+}
+.styling{
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    margin:40px 10px;
+}
+.mainContainer{
+    height: 600px;
+    width: 100%;
+    background-color:#303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ImHeading{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: beige;
+}
+.shahzaib{
+    font-size: 75px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+.childMainContainer1{
+    width: max-content;
+}
+.Lorem{
+    font-size: 20px;
+width: 300px;
+ /* border: 1px solid black; */
+margin-top: 10px;
+margin-left: 30px;
+color:aliceblue;
+}
+.yellowLine{
+    width: 230px;
+    height: 5px;
+    background-color: yellow;
+    margin: 50px 30px;
+}
+.childMainContainer2{
+    /* border: 1px solid blue; */
+    width: 400px;
+background-color:gray;
+border-radius: 50%;
+    height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+    height: 580px;
+}
+.childMainContainer3{
+    width: 400px;
+     /* border: 1px solid blue;  */
+
+}
+.fontsAwesome{
+    display: flex;
+    
+}
+.fontsAwesomeIcons{
+    margin: 20px 0px 0px 25px;
+    color: yellow;
+    background-color:#222222;
+    padding: 10px;
+    height: 15px;
+    width:  15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ServiceLorem{
+    margin: 20px 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.ChangeService{
+    margin: 5px 30px;
+    color: aliceblue;
+}
+.showMoreicon{
+    margin-left: 30px;
+    color:yellow;
+}
+.ArrowIcons{
+    margin-left: 10px;
+    color: yellow;
+}
+.changesImage{
+    height: 500px;
+}
+.aboutCompany{
+    background-color: black;
+    height: 100px ;
+    width: 80%;
+    position: absolute;
+    bottom: -8%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    height: 50px;
+    width: 150px;
+    background-color:#222222;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.googleIcon{
+    height: 30px;
+    width: 110px;
+}
+/* about */
+.mainAboutContainer{
+    width: 100%;
+    /* height: 810px; */
+    background-color: gray;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.item1{
+    /* border: 2px solid black; */
+    height: 630px;
+    width: 80%;
+    /* margin-top: 90px; */
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.Child1{
+    width: 380px;
+    height: 350px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+.para1{
+    margin-top: 30px;
+    width: 250px;
+    
+}
+.papa{
+    /* border: 1px solid black; */
+    width: 380px;
+    height: 180px;
+    position: relative;
+}
+.IconChange{
+    font-size: 30px;
+    color: blue;
+}
+.IconChange1{
+    font-size: 25px;
+    color: blue;
+}
+.IconChange2{
+    font-size: 28px;
+    color: rgb(206, 240, 13);
+}
+.ChangeColor{
+    color: aliceblue;
+}
+.ChangeColor1{
+    color: aliceblue;
+}
+.ChangeColor2{
+    color: aliceblue;
+}
+.AboutPara1{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow ;
+    position: absolute;
+    top: 10px;
+}
+.SizeShort{
+    font-size: 15px;
+    color: black;
+}
+.AboutPara2{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+.FontSize{
+    font-size: 15px;
+    color: black;
+}
+.AboutPara3{
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+}
+.FontSize1{
+    font-size: 15px;
+    color: black;
+}
+.AboutPara4{
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    right: 30px;
+
+}
+.FontSize2{
+   color:black ;
+    font-size: 15px;
+    
+}
+.Child2{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    top: 80px;
+}
+.UiDesign1{
+    width: 40%;
+    height: 100px;
+}
+.messi1{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.DesignChange{
+    color: aliceblue;
+    margin-left:10px ;
+}
+.Designing{
+    font-size: 20px;
+    color: rgb(22, 15, 15) ;
+    margin-top: 10px;
+}
+.Arrow1{
+    position: absolute;
+    right: 15px;
+    top: 28px;
+    color: yellow;
+
+}
+.line2{
+    border: 1px solid black;
+    width: 100%;
+    /* height: 1px; */
+    margin-top: 10px;
+}
+.frontDesign{
+    width: 40%;
+    height: 100px;
+    margin-top: 10px;
+}
+.DesignChange1{
+    color: aliceblue;
+    margin-left: 175px;
+    margin-top: -70px;
+    position: absolute;
+
+}
+.Projects{
+    color: #0f0c0c;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.Arrow2{
+    color: yellow;
+    right: 11px;
+    position: absolute;
+    top: 160px;
+}
+.Line3{
+    border: 1px solid black ;
+    width: 100%;
+    /* height: 1px; */
+    margin-top: 10px;
+}
+.MobDevloper{
+    width: 40%;
+    height: 100px;
+   margin-top: 10px;
+}
+.DesignChange2{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: -80px;
+}
+.Projects1{
+    color: #070404;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.Arrow3{
+    color: yellow;
+    right: 9px;
+    position: absolute;
+    top: 280px;
+}
+.Lorem3{
+    color: aliceblue;
+    font-size: 20px;
+}
+.ChangingSize{
+    color: rgb(235, 241, 245);
+    font-size: 45px;
+}
+.item2{
+    height: 400px;
+    margin: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.boxes{
+    /* border: 2px solid red; */
+    background-color: rgb(66, 61, 61);
+border-radius: 20px;
+box-shadow: 2px 4px 10px black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.UiIcons{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+   
+}
+.heading5{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.heading6{
+    color: rgb(141, 147, 150);
+    margin-left: 15px;
+    font-size: 20px;
+}
